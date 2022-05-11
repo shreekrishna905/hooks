@@ -10,6 +10,7 @@ const ProductList = (props) => {
         id={item.id}
         name={item.name}
         price={item.price}
+        productClick ={() => props.handleProductClick(item.id)}
       />
     );
   });

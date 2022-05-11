@@ -51,7 +51,7 @@ const Dashboard = () => {
     <>
       <div> Dashboard</div>
       <div>Product</div>
-      <ProductList productList={productState} />
+      <ProductList productList={productState} handleProductClick={handleProductClick} />
         <NewProduct name={newProductState.name} onFieldsChanged={onFieldsChanged} price={newProductState.name} handleSaveProduct={handleSaveProduct} />
     
       <div>Product Detail
